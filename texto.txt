@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Motogear</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            color: red;
+            margin: 0;
+            font-size: 40px;
+        }
+
+        nav {
+            background-color: red;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .presentacion {
+            background-color: #f5f5f5;
+            border-left: 5px solid red;
+            border-right: 5px solid red;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 800px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .btn {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Motogear</h1>
+    <p>Tu tienda especializada en repuestos y accesorios para motos</p>
+</header>
+
+<nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Nosotros</a>
+    <a href="#">Contacto</a>
+</nav>
+
+<section>
+    <div class="presentacion">
+        <h2>Bienvenido a Motogear</h2>
+        <p>
+            En <strong>Motogear</strong> ofrecemos los mejores repuestos, cascos y accesorios
+            para tu moto. Nos enfocamos en calidad, seguridad y estilo para que
+            disfrutes cada recorrido con confianza.
+        </p>
+        <p>
+            Somos tu mejor aliado en el mundo de las dos ruedas.
+        </p>
+        <button class="btn">Ver Productos</button>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Motogear - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
